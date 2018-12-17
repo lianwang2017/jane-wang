@@ -2,77 +2,106 @@ body
 {
 	margin: 0;
 	padding: 0;
-	background: url(city.jpeg) no-repeat center center fixed;
+	background-color: white;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
 
+/* The navigation bar */
+.navbar {
+	overflow: hidden;
+	background-color: #040535;
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	width: 100%; /* Full width */
+	z-index: 500;
+}
+
+/* Links inside the navbar */
+.navbar a {
+	float: right;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 1vw 1.5vw;
+	text-decoration: none;
+	font-family: 'Century Gothic', sans-serif;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+	background: royalblue;
+}
+
+.centername
+{
+	color: white;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 9vw;
+	position: absolute;
+	top: 28%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.centered 
+{
+	color: white;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 3vw;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
 .box
 {
 	border-style: solid;
-	border-width: 1px;
-	border-color: white;
-	width: 450px;
-	background: rgba(0,0,0,0.4);
-	padding: 50px;
+	border-width: 1vw;
+	border-color: pink;
+	width: 80vw;
+	background: pink;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	padding-top: 5vw;
+	padding-bottom: 5vw;	
 	text-align: center;
 	margin: auto;
 	margin-top: 5%;
-	color: white;
+	color: black;
 	font-family: 'Century Gothic', sans-serif;
+	position: center;
 }
 
 .box-img
 {
 	border-radius: 50%;
-	width: 200px;
-	height: 200px;
+	width: 35vw;
+	height: 35vw;
 	border-style: solid;
 	border-color: white;
-	border-width: 1px;
+	border-width: 0.5vw;
 }
 
 .box h1
 {
-	font-size: 40px;
-	letter-spacing: 4px;
+	font-size: 4.5vw;
+	letter-spacing: 0.3vw;
 	font-family: 'Century Gothic', sans-serif;
 	font-weight: 200;
 }
 
 .box h3
 {
-	font-size: 18px;
-	letter-spacing: 2px;
-	font-weight: 100;
-	text-transform: uppercase;
-	margin: 0;
-	padding-bottom: 10px;
-}
-
-.box h4
-{
-	font-size: 15px;
-	letter-spacing: 2px;
+	font-size: 1.3vw;
 	font-weight: 200;
 	margin: 0;
-	padding-bottom: 10px;
-}
-
-.box h5
-{
-	font-size: 15px;
-	letter-spacing: 2px;
-	font-weight: 100;
-	margin: 0;
-	padding-bottom: 15px;
-}
-
-.box p
-{
-	font-weight: 200;
+	padding-top: 1.5vw;
+	padding-bottom: 1.5vw;
 	text-align: justify;
+	line-height: 2vw;
 }
 
 ul {
@@ -80,23 +109,23 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 15px;
-  padding-top: 30px;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-bottom: 1vw;
+  padding-top: 2vw;
 }
 
 ul li {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 20px;
-  width: 20px;
-  margin: 0 10px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 15px;
-  padding-top: 30px;
+  height: 2vw;
+  width: 2vw;
+  margin: 0 1vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-bottom: 1vw;
+  padding-top: 2vw;
 }
 
 ul li a {
@@ -105,49 +134,14 @@ ul li a {
   justify-content: center;
   height: 100%;
   width: 100%;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 15px;
-  padding-top: 30px;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-bottom: 1vw;
+  padding-top: 2vw;
 }
 
 ul li a img {
   width: 100%;
-}
-
-.boxq
-{
-	border-style: solid;
-	border-width: 1px;
-	border-color: white;
-	width: 450px;
-	background: rgba(0,0,0,0.4);
-	padding: 50px;
-	text-align: center;
-	margin: auto;
-	margin-top: 5%;
-	color: white;
-	font-family: 'Century Gothic', sans-serif;
-}
-
-.boxq h2
-{
-	font-size: 30px;
-	letter-spacing: 4px;
-	font-family: 'Century Gothic', sans-serif;
-	font-weight: 200;
-}
-
-ul
-{
-	 list-style: none;
-  	 display: flex;
-  	 align-items: center;
- 	 justify-content: center;
- 	 padding-left: 30px;
- 	 padding-right: 30px;
- 	 padding-bottom: 15px;
- 	 padding-top: 10px;
 }
 
 .boxj
